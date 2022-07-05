@@ -20,6 +20,7 @@ You will need this 3 repositories and the required dependencies for each:
 
 # Usage
 In file folder_paths.sh insert the paths for every repo folder as well as the OPENOCD and GCC.
+
 Run main.sh, and do the backups, and also the unlock.
 
 After backing up and unlocking your Game And Watch copy the `flash_backup_${DEVICE}.bin`, `internal_flash_backup_${DEVICE}.bin` and `itcm_backup_${DEVICE}.bin` from the game-and-watch-backup folder to the root of the other repos.
