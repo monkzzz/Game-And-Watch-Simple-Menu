@@ -16,7 +16,7 @@ A simple menu done in Bash to be used in Unix, so that is easier to backup, flas
 You will need this 3 repositories and the required dependencies for each:
 * [game-and-watch-backup](https://github.com/ghidraninja/game-and-watch-backup) by [ghidraninja](https://github.com/ghidraninja)
 * [game-and-watch-patch](https://github.com/BrianPugh/game-and-watch-patch/) by [BrianPugh](https://github.com/BrianPugh)
-* [game-and-watch-retro-go](https://github.com/olderzeus/game-and-watch-retro-go) by [kbeckmann](https://github.com/olderzeus)
+* [game-and-watch-retro-go](https://github.com/olderzeus/game-and-watch-retro-go) by [olderzeus](https://github.com/olderzeus)
 
 # Usage
 In file folder_paths.sh insert the paths for every repo folder as well as the OPENOCD and GCC.
@@ -43,5 +43,4 @@ Thanks to the community that made this possible!
 
 * [game-and-watch-backup](https://github.com/ghidraninja/game-and-watch-backup) by [ghidraninja](https://github.com/ghidraninja)
 * [game-and-watch-patch](https://github.com/BrianPugh/game-and-watch-patch/) by [BrianPugh](https://github.com/BrianPugh)
-* [game-and-watch-retro-go](https://github.com/kbeckmann/game-and-watch-retro-go) by [kbeckmann](https://github.com/kbeckmann)
-* [game-and-watch-retro-go](https://github.com/olderzeus/game-and-watch-retro-go) by [kbeckmann](https://github.com/olderzeus)
+* [game-and-watch-retro-go](https://github.com/olderzeus/game-and-watch-retro-go) by [olderzeus](https://github.com/olderzeus)
