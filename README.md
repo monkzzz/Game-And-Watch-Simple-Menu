@@ -34,7 +34,7 @@ The default programming when you choose 4MB with a Zelda Game and Watch will rem
 
 All the other options will maintain the original firmware data not loosing anything extra.
 
-The colors can be removed/changed by customizing the color_function.sh
+The script colors can be removed/changed by customizing the color_function.sh
 
 # Acknowledgement 
 
