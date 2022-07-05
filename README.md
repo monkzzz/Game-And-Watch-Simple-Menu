@@ -26,7 +26,7 @@ After backing up and unlocking your Game And Watch copy the `flash_backup_${DEVI
 
 Now you can patch the firmware and then install Retro Go.
 
-#Details
+# Details
 The default programming when you choose 1MB or 2MB with a Mario Game and Watch will patch and flash the firmware in the internal memory, leaving the 1MB or 2MB external memory available for Retro Go data.
 You will however lose the "Mario Song" easter egg and the 5 sleeping illustrations.
 
