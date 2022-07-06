@@ -12,11 +12,6 @@ elif [[ $TARGET == 'mario' && $SIZE == '4' ]]
 then
 	make PATCH_PARAMS="--device=$TARGET" ADAPTER=$ADAPTER flash_patched
 
-elif [[ $TARGET == 'zelda' && $SIZE -lt '4' ]]
-then
-	echo "You need at least a 4MB memory to flash"
-
-
 elif [[ $TARGET == 'zelda' && $SIZE == '4' ]]
 then
 	make PATCH_PARAMS="--device=$TARGET --extended --no-la --no-sleep-images" ADAPTER=$ADAPTER flash_patched
