@@ -32,15 +32,25 @@ Choose an option: "
 		### Option 1 ###
 		1)
 			echo "1MB"
-			SIZE=1
-			NEXT=1
+			if [[ $TARGET == 'zelda' ]]
+			then
+				echo "You need at least a 4MB memory to flash"
+			else
+				SIZE=2
+				NEXT=1
+			fi
 			;;
 		
 		### Option 2 ###
 		2)
 			echo "2MB"
-			SIZE=2
-			NEXT=1
+			if [[ $TARGET == 'zelda' ]]
+			then
+				echo "You need at least a 4MB memory to flash"
+			else
+				SIZE=2
+				NEXT=1
+			fi
 			;;
 			
 		### Option 3 ###
