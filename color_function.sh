@@ -5,7 +5,6 @@ ESC=$(printf '\033') RESET="${ESC}[0m" BLACK="${ESC}[30M" RED="${ESC}[31m"
 GREEN="${ESC}[32m" YELLOW="${ESC}[33m" BLUE="${ESC}[34m" MAGENTA="${ESC}[35m"
 CYAN="${ESC}[36m" WHITE="${ESC}[37m" DEFAULT="${ESC}[39m"
 
-
 ### Color Functions ###
 
 if [[ $colors == 1 ]]
