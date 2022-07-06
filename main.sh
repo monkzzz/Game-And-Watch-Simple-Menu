@@ -14,6 +14,8 @@ source patch_function.sh
 
 source retro_go_function.sh
 
+source copy_file_function.sh
+
 export OPENOCD
 export GCC_PATH
 
@@ -80,6 +82,11 @@ $(menuprint "------------------" )
 				echo " "
 				cd $game_and_watch_backup_folder
 				./2_backup_flash.sh $ADAPTER $TARGET
+				
+				cd $game_and_watch_backup_folder"/backups"
+				backup_file="flash_backup_$TARGET.bin"
+				echo ""
+				copy_backups
 				echo ""
 				waitforkey
 			fi			
@@ -100,6 +107,12 @@ $(menuprint "-------------------------" )
 				echo " "
 				cd $game_and_watch_backup_folder
 				./3_backup_internal_flash.sh $ADAPTER $TARGET
+				
+				cd $game_and_watch_backup_folder"/backups"
+				backup_file="internal_flash_backup_$TARGET.bin"
+				echo ""
+				copy_backups
+				echo ""
 				waitforkey
 			fi			
 			;;
